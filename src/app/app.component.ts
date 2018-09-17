@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'dropdown-test';
+  dropdownGroups = [
+    {
+      title: 'Title',
+      dropdownItems: [
+        {
+          displayName: 'sub',
+          url: 'url'
+        }
+      ]
+    }
+  ];
 }
